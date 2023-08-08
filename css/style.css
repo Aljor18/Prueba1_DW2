@@ -1,0 +1,248 @@
+
+:root{
+	--bg-body: #F8F9FB;
+	--color-azul: #00ACB2;
+}
+body{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	background-color: var(--bg-body);
+	color: #333;
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+
+
+header{
+	background-color: var(--bg-body);
+	/*box-shadow: 0px 0px 5px 3px #eee;*/
+}
+
+footer{
+	background-color: var(--bg-body);
+	color: #333;
+	padding: 30px 0;
+	text-align: center;
+}
+
+
+
+.intro {
+	background: #25282F;
+	padding-bottom: 30px;
+}
+
+.intro h1 {
+	padding-top: 100px;
+	font-size: 45px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+}
+
+.intro h2 {
+	color: #FFFFFF;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 30px;
+}
+
+.intro p {
+	color: #FFFFFF;
+	font-weight: 200;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 50px;
+}
+
+.intro .button2 {
+ background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin: 10px auto;
+}
+
+.intro .button1 {
+ background-color: white;
+    color: #3498db;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin: 10px auto;
+
+}
+
+.our-classes {
+	background: white;
+	margin-bottom: 100px;
+}
+
+.our-classes h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #3c3838;
+}
+
+.our-classes h3 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #00ACB2;
+	font-size: 20px;
+}
+
+
+.our-classes .container {
+	display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+	background: #F8F9FB;
+}
+
+.our-classes .classes-column {
+padding-right: 100px;
+padding-left: 100px;
+padding-bottom: 100px;
+}
+
+.cta {
+	background: #25282F;
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+
+.cta .button {
+ background-color: #A03536;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin: 10px auto;
+}
+
+.cta h1 {
+	font-size: 40px;
+	color: #FFFFFF;
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+}
+
+.cta .cta-column {
+	padding-right: 50px;
+}
+
+.fitness {
+	background-image: url("../../../../../Downloads/Alejandro - DW1 - grupo/img/health-fitness.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+	  padding-top: 200px;
+	  padding-bottom: 200px;
+}
+
+.fitness .container {
+background: white;
+}
+
+.fitness h1 {
+	font-size: 40px;
+	color:#3c3838;
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+}
+
+.fitness h4 {
+	font-size: 20px;
+	color:#00ACB2;
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+}
+
+.fitness .button {
+ background-color: transparent;
+    color: #00ACB2;
+    border: #00ACB2;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin: 10px auto;
+}
+
+.trainers {
+	background: #25282F;
+	padding-bottom: 30px;
+}
+
+.trainers h1 {
+	font-size: 40px;
+	text-align: center;
+	color:white;
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+.trainers p {
+ color: white;
+ text-align: center;
+ padding-bottom: 60px;
+}
+
+.trainers .container {
+padding-bottom: 60px;
+}
+
+.subscribe h2 {
+	font-size: 40px;
+	text-align: center;
+	color: #3c3838;
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+.subscribe .classes-column {
+	text-align: center;
+	align-content: center;
+}
+
+.subscribe .subscribe-button {
+ background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin: 10px auto;
+
+
+
+
+
+
